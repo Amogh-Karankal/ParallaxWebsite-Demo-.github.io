@@ -1,0 +1,90 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Caveat', cursive;
+	height: 100%;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 1.8rem;
+	color: #666;
+}
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4{
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*fixed=parallax;
+	  scroll=normal;\
+	  */
+	  
+}
+
+.bgimg1{
+	background: url('../images/bgimg1.png');
+	min-height: 100%;
+	background-attachment: fixed;
+}
+
+.bgimg2{
+	background: url('../images/bgimg2.png');
+	min-height: 100%;
+	background-attachment: fixed;
+}
+
+.bgimg3{
+	background: url('../images/bgimg3.png');
+	min-height: 100%;
+	background-attachment: fixed;
+}
+
+.bgimg4{
+	background: url('../images/bgimg4.png');
+	min-height: 100%;
+	background-attachment: fixed;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.bgtext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.bgtext .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+
+.border-trans{
+	background-color: transparent;
+	color: #fff;
+}
+
+@media(max-width: 568px){
+	.bgimg1, .bgimg2, .bgimg3, .bgimg4{
+		background-attachment: scroll;
+	}
+}
