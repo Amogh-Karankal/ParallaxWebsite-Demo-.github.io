@@ -10,41 +10,52 @@ body, html{
 	color: #666;
 }
 
-.bgimg1, .bgimg2, .bgimg3, .bgimg4{
+.bgimg1{
+	background: url('../images/bgimg1.png');
+	min-height: 100%;
+	background-attachment: fixed;
 	position: relative;
 	opacity: 0.7;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	/*fixed=parallax;
-	  scroll=normal;\
-	  */
-	  
-}
-
-.bgimg1{
-	background: url('../images/bgimg1.png');
-	min-height: 100%;
-	background-attachment: fixed;
 }
 
 .bgimg2{
 	background: url('../images/bgimg2.png');
 	min-height: 100%;
 	background-attachment: fixed;
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .bgimg3{
 	background: url('../images/bgimg3.png');
 	min-height: 100%;
 	background-attachment: fixed;
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .bgimg4{
 	background: url('../images/bgimg4.png');
 	min-height: 100%;
 	background-attachment: fixed;
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .section{
